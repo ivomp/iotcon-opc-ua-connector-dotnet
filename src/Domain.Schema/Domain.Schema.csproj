@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <VersionPrefix>3.5.0</VersionPrefix>
     <AssemblyName>OMP.Connector.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>OMP.Connector.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
